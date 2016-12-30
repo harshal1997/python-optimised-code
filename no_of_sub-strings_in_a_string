@@ -1,0 +1,7 @@
+import re
+a = raw_input()
+b = raw_input()
+match = re.findall('(?='+b+')',a)
+print len(match)
+
+//this gives the no of substring in a sting using in build function
